@@ -1,0 +1,89 @@
+.header {
+  display: flex; 
+  align-items: center; 
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+
+}
+
+
+.top-left-image {
+  width: 100px; 
+  height: auto; 
+  margin-right: 20px; 
+}   
+
+.header-container {
+  color: orange;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+
+ 
+}
+  .image{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+  }
+
+  .tel{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: right;
+  }
+
+  .keel{
+    flex-direction: row;
+    justify-content: right;
+  
+  }
+  .bussisuunad {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+   border: none;
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+    margin: 20px auto;
+   color: orange;
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    text-align: center;
+  
+
+}
+
+.reise{
+  background-color: orange; 
+    color: white;
+  border: none;
+}
+
+
+
+
+
+
+
+body {
+    background-image: url('https://webcms.tpilet.ee/static/taustapilt.jpg');
+    background-size:center ; 
+    background-position: center top; 
+    background-repeat: no-repeat; 
+}
+.osta{
+  text-align: center;
+font-size: 0.9cm
+}
